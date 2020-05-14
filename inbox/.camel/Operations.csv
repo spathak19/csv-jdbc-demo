@@ -1,0 +1,3 @@
+OPS, ItemID, Product Name, Price
+ADD, 100, Samsung TV, 32000
+UPDATE, 100, Samsung TV, 50000

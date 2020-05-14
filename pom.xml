@@ -9,8 +9,8 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pathaks</groupId>
-	<artifactId>jdbc</artifactId>
+	<groupId>com.pathaks.camel</groupId>
+	<artifactId>csv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -51,11 +51,6 @@
 			<version>${camel.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
-			<artifactId>camel-activemq-starter</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
@@ -80,19 +75,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.camel</groupId>
-				<artifactId>camel-report-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>process-classes</phase>
-						<goals>
-							<goal>validate</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
-
 </project>

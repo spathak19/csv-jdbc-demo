@@ -1,0 +1,4 @@
+OPS, ItemID, Product Name, Price
+ADD, , Samsung Phone. 20000
+UPDATE, 1, Samsung Phone, 1000
+DELETE, 23, Samsung TV, 50000

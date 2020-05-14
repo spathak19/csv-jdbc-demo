@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.datasource.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.jdbc-url'"
+  },
+  {
+    "name": "spring.activemq.port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.activemq.port'"
+  },
+  {
+    "name": "spring.activemq.host",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.activemq.host'"
+  }
+]}

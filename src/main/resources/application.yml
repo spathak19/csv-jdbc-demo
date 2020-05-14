@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+camel.springboot.shutdownTimeout: 2
+camel.springboot.main-run-controller: true
+
+---
+
+spring:
+  profiles: dev
+  activemq:
+    host: localhost
+    port: 8161
+    user: admin
+    password: admin
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jdbc-url:  jdbc:postgresql://localhost:5432/Camel
+    username: postgres
+    password: pathaks01
